@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: raver666/wanderlust-backend-beta:${params.BACKEND_DOCKER_TAG}
+          image: raver666/wanderlust-backend-beta:
           ports:
             - containerPort: 8080
 ---

@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: raver666/wanderlust-frontend-beta:${params.FRONTEND_DOCKER_TAG}
+          image: raver666/wanderlust-frontend-beta:
           ports:
             - containerPort: 5173
 ---
